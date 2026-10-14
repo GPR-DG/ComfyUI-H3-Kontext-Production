@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "primary": "p0",
+  "fallbacks": [
+    "p1",
+    "p2",
+    "p3"
+  ],
+  "auto_failover": true,
+  "currency": "USD",
+  "timeout_seconds": 10,
+  "cooldown_seconds": 60,
+  "max_total_cost": null,
+  "providers": [
+    {
+      "id": "p0",
+      "enabled": true,
+      "priority": 1,
+      "base_url": "http://127.0.0.1:8788/p0/v1",
+      "key_env": "H3_MOCK_KEY",
+      "protocol": "openai_images",
+      "edit_path": "/images/edits",
+      "auth": {
+        "header": "Authorization",
+        "prefix": "Bearer "
+      },
+      "timeout_seconds": 5,
+      "max_response_bytes": 67108864,
+      "safe_reject_statuses": [
+        401,
+        403,
+        404
+      ],
+      "request": {
+        "image_field": "image",
+        "mask_field": "mask"
+      },
+      "models": {
+        "background-edit": {
+          "id": "model-p0",
+          "task": "image_edit",
+          "supports_mask": true,
+          "max_images": 1,
+          "mask_encoding": "alpha_transparent_edit",
+          "price_upper_bound": 0.0,
+          "defaults": {},
+          "allowed_params": []
+        }
+      },
+      "discovery": {
+        "path": "/models",
+        "items_path": "data",
+        "id_path": "id"
+      },
+      "result": {
+        "b64_path": "data.0.b64_json",
+        "url_path": "data.0.url",
+        "download_hosts": [],
+        "download_auth": false
+      },
+      "allow_insecure_localhost": true
+    },
+    {
+      "id": "p1",
+      "enabled": true,
+      "priority": 2,
+      "base_url": "http://127.0.0.1:8788/p1/v1",
+      "key_env": "H3_MOCK_KEY",
+      "protocol": "openai_images",
+      "edit_path": "/images/edits",
+      "auth": {
+        "header": "Authorization",
+        "prefix": "Bearer "
+      },
+      "timeout_seconds": 5,
+      "max_response_bytes": 67108864,
+      "safe_reject_statuses": [
+        401,
+        403,
+        404
+      ],
+      "request": {
+        "image_field": "image",
+        "mask_field": "mask"
+      },
+      "models": {
+        "background-edit": {
+          "id": "model-p1",
+          "task": "image_edit",
+          "supports_mask": true,
+          "max_images": 1,
+          "mask_encoding": "alpha_transparent_edit",
+          "price_upper_bound": 0.0,
+          "defaults": {},
+          "allowed_params": []
+        }
+      },
+      "discovery": {
+        "path": "/models",
+        "items_path": "data",
+        "id_path": "id"
+      },
+      "result": {
+        "b64_path": "data.0.b64_json",
+        "url_path": "data.0.url",
+        "download_hosts": [],
+        "download_auth": false
+      },
+      "allow_insecure_localhost": true
+    },
+    {
+      "id": "p2",
+      "enabled": true,
+      "priority": 3,
+      "base_url": "http://127.0.0.1:8788/p2/v1",
+      "key_env": "H3_MOCK_KEY",
+      "protocol": "openai_images",
+      "edit_path": "/images/edits",
+      "auth": {
+        "header": "Authorization",
+        "prefix": "Bearer "
+      },
+      "timeout_seconds": 5,
+      "max_response_bytes": 67108864,
+      "safe_reject_statuses": [
+        401,
+        403,
+        404
+      ],
+      "request": {
+        "image_field": "image",
+        "mask_field": "mask"
+      },
+      "models": {
+        "background-edit": {
+          "id": "model-p2",
+          "task": "image_edit",
+          "supports_mask": true,
+          "max_images": 1,
+          "mask_encoding": "alpha_transparent_edit",
+          "price_upper_bound": 0.0,
+          "defaults": {},
+          "allowed_params": []
+        }
+      },
+      "discovery": {
+        "path": "/models",
+        "items_path": "data",
+        "id_path": "id"
+      },
+      "result": {
+        "b64_path": "data.0.b64_json",
+        "url_path": "data.0.url",
+        "download_hosts": [],
+        "download_auth": false
+      },
+      "allow_insecure_localhost": true
+    },
+    {
+      "id": "p3",
+      "enabled": true,
+      "priority": 4,
+      "base_url": "http://127.0.0.1:8788/p3/v1",
+      "key_env": "H3_MOCK_KEY",
+      "protocol": "openai_images",
+      "edit_path": "/images/edits",
+      "auth": {
+        "header": "Authorization",
+        "prefix": "Bearer "
+      },
+      "timeout_seconds": 5,
+      "max_response_bytes": 67108864,
+      "safe_reject_statuses": [
+        401,
+        403,
+        404
+      ],
+      "request": {
+        "image_field": "image",
+        "mask_field": "mask"
+      },
+      "models": {
+        "background-edit": {
+          "id": "model-p3",
+          "task": "image_edit",
+          "supports_mask": true,
+          "max_images": 1,
+          "mask_encoding": "alpha_transparent_edit",
+          "price_upper_bound": 0.0,
+          "defaults": {},
+          "allowed_params": []
+        }
+      },
+      "discovery": {
+        "path": "/models",
+        "items_path": "data",
+        "id_path": "id"
+      },
+      "result": {
+        "b64_path": "data.0.b64_json",
+        "url_path": "data.0.url",
+        "download_hosts": [],
+        "download_auth": false
+      },
+      "allow_insecure_localhost": true
+    }
+  ]
+}

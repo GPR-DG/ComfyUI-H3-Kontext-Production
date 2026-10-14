@@ -1,0 +1,11 @@
+[project]
+name = "comfyui-h3-adapter"
+version = "0.1.8"
+description = "Configuration-driven image-edit API adapter with acceptance-aware failover"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["httpx>=0.28.1,<0.29", "Pillow>=10.3,<13", "numpy>=1.26,<3"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]

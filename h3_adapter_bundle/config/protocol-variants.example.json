@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "primary": "primary",
+  "fallbacks": [
+    "backup1",
+    "backup2",
+    "backup3"
+  ],
+  "auto_failover": true,
+  "currency": "USD",
+  "timeout_seconds": 120,
+  "cooldown_seconds": 60,
+  "max_total_cost": null,
+  "providers": [
+    {
+      "id": "primary",
+      "enabled": false,
+      "priority": 1,
+      "base_url": "https://provider-1.example.invalid/v1",
+      "key_env": "H3_PROVIDER_1_KEY",
+      "protocol": "openai_images",
+      "edit_path": "/images/edits",
+      "auth": {
+        "header": "Authorization",
+        "prefix": "Bearer "
+      },
+      "timeout_seconds": 120,
+      "max_response_bytes": 67108864,
+      "safe_reject_statuses": [
+        401,
+        403,
+        404
+      ],
+      "request": {
+        "image_field": "image",
+        "mask_field": "mask"
+      },
+      "models": {
+        "background-edit": {
+          "id": "FILL_ACTUAL_IMAGE_EDIT_MODEL_ID",
+          "task": "image_edit",
+          "supports_mask": false,
+          "max_images": 1,
+          "mask_encoding": "alpha_transparent_edit",
+          "price_upper_bound": null,
+          "defaults": {},
+          "allowed_params": []
+        }
+      },
+      "discovery": null,
+      "result": {
+        "b64_path": "data.0.b64_json",
+        "url_path": "data.0.url",
+        "download_hosts": [],
+        "download_auth": false
+      }
+    },
+    {
+      "id": "backup1",
+      "enabled": false,
+      "priority": 2,
+      "base_url": "https://provider-2.example.invalid/v1",
+      "key_env": "H3_PROVIDER_2_KEY",
+      "protocol": "json_template",
+      "edit_path": "/FILL_DOCUMENTED_EDIT_PATH",
+      "auth": {
+        "header": "Authorization",
+        "prefix": "Bearer "
+      },
+      "timeout_seconds": 120,
+      "max_response_bytes": 67108864,
+      "safe_reject_statuses": [
+        401,
+        403,
+        404
+      ],
+      "request": {
+        "body": {
+          "model": "{model}",
+          "prompt": "{prompt}",
+          "images": "{images_data_urls}",
+          "parameters": "{params}"
+        }
+      },
+      "models": {
+        "background-edit": {
+          "id": "FILL_ACTUAL_IMAGE_EDIT_MODEL_ID",
+          "task": "image_edit",
+          "supports_mask": false,
+          "max_images": 1,
+          "mask_encoding": "alpha_transparent_edit",
+          "price_upper_bound": null,
+          "defaults": {},
+          "allowed_params": []
+        }
+      },
+      "discovery": null,
+      "result": {
+        "b64_path": "FILL_RESULT_B64_PATH",
+        "url_path": "FILL_RESULT_URL_PATH",
+        "download_hosts": [],
+        "download_auth": false
+      }
+    },
+    {
+      "id": "backup2",
+      "enabled": false,
+      "priority": 3,
+      "base_url": "https://provider-3.example.invalid/v1",
+      "key_env": "H3_PROVIDER_3_KEY",
+      "protocol": "json_template",
+      "edit_path": "/FILL_DOCUMENTED_EDIT_PATH",
+      "auth": {
+        "header": "Authorization",
+        "prefix": "Bearer "
+      },
+      "timeout_seconds": 120,
+      "max_response_bytes": 67108864,
+      "safe_reject_statuses": [
+        401,
+        403,
+        404
+      ],
+      "request": {
+        "body": {
+          "model": "{model}",
+          "prompt": "{prompt}",
+          "images": "{images_data_urls}",
+          "parameters": "{params}"
+        }
+      },
+      "models": {
+        "background-edit": {
+          "id": "FILL_ACTUAL_IMAGE_EDIT_MODEL_ID",
+          "task": "image_edit",
+          "supports_mask": false,
+          "max_images": 1,
+          "mask_encoding": "alpha_transparent_edit",
+          "price_upper_bound": null,
+          "defaults": {},
+          "allowed_params": []
+        }
+      },
+      "discovery": null,
+      "result": {
+        "b64_path": "FILL_RESULT_B64_PATH",
+        "url_path": "FILL_RESULT_URL_PATH",
+        "download_hosts": [],
+        "download_auth": false
+      },
+      "async": {
+        "task_id_path": "FILL_TASK_ID_PATH",
+        "poll_path": "/FILL_QUERY_PATH/{task_id}",
+        "status_path": "FILL_STATUS_PATH",
+        "success": [
+          "FILL_SUCCESS_STATE"
+        ],
+        "failure": [
+          "FILL_FAILURE_STATE"
+        ],
+        "poll_interval": 1,
+        "max_polls": 120
+      }
+    },
+    {
+      "id": "backup3",
+      "enabled": false,
+      "priority": 4,
+      "base_url": "https://provider-4.example.invalid/v1",
+      "key_env": "H3_PROVIDER_4_KEY",
+      "protocol": "json_template",
+      "edit_path": "/FILL_DOCUMENTED_EDIT_PATH",
+      "auth": {
+        "header": "Authorization",
+        "prefix": "Bearer "
+      },
+      "timeout_seconds": 120,
+      "max_response_bytes": 67108864,
+      "safe_reject_statuses": [
+        401,
+        403,
+        404
+      ],
+      "request": {
+        "body": {
+          "model": "{model}",
+          "prompt": "{prompt}",
+          "image": "{image_ref}",
+          "parameters": "{params}"
+        }
+      },
+      "models": {
+        "background-edit": {
+          "id": "FILL_ACTUAL_IMAGE_EDIT_MODEL_ID",
+          "task": "image_edit",
+          "supports_mask": false,
+          "max_images": 1,
+          "mask_encoding": "alpha_transparent_edit",
+          "price_upper_bound": null,
+          "defaults": {},
+          "allowed_params": []
+        }
+      },
+      "discovery": null,
+      "result": {
+        "b64_path": "FILL_RESULT_B64_PATH",
+        "url_path": "FILL_RESULT_URL_PATH",
+        "download_hosts": [],
+        "download_auth": false
+      },
+      "upload": {
+        "path": "/FILL_UPLOAD_PATH",
+        "field": "file",
+        "ref_path": "FILL_UPLOAD_REFERENCE_PATH"
+      }
+    }
+  ]
+}

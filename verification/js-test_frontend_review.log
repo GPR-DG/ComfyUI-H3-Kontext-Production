@@ -1,0 +1,25 @@
+PASS mapping save preserves auto provider and all three fallback mappings
+PASS mapping save does not replace an explicitly fixed provider
+PASS changed model ID clears old model capabilities, price and parameter metadata
+PASS unchanged model ID retains explicitly configured metadata
+PASS new alias remains conservatively configured
+PASS alias change loads that aliases mapped model before save
+PASS manager rejects stale save and retains user editor on conflict
+PASS manager uses current revision for each successive successful save
+PASS picker rejects config change between latest GET and POST without node mutation
+PASS picker preserves changes made before its latest GET
+PASS changed model keeps visible reconfirmation warning after save
+PASS pending mapping save targets provider selected at click despite UI switch
+PASS refresh after changed mapping uses the successfully saved ID
+PASS discovery pending at save cannot replace model reconfirmation warning
+PASS provider fixing remains explicit in manager
+Frontend review regression: 15/15 passed
+✔ C:\Users\14301\Documents\Codex\2026-10-14\files-pasted-by-the-user-h3\outputs\ComfyUI-H3-Kontext-Production\h3_adapter_bundle\tests\test_frontend_review.mjs (94.196ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 102.1756

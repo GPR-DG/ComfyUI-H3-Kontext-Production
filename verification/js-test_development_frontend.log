@@ -1,0 +1,13 @@
+PASS invalid cached token cleared on fetch failure
+PASS denied last retry clears cached token
+PASS successful save survives invalid unsaved editor
+PASS overlapping key submissions serialized and close handled
+✔ C:\Users\14301\Documents\Codex\2026-10-14\files-pasted-by-the-user-h3\outputs\ComfyUI-H3-Kontext-Production\h3_adapter_bundle\tests\test_development_frontend.mjs (125.1093ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 133.7627

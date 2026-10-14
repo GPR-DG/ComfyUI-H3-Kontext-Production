@@ -1,0 +1,35 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "example_input.png"
+    }
+  },
+  "2": {
+    "class_type": "H3ImageEdit",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "prompt": "Remove people and reconstruct occluded background walls and windows.",
+      "provider": "auto",
+      "model_alias": "background-edit",
+      "parameters": "{}",
+      "auto_failover": true,
+      "timeout_seconds": 120,
+      "max_cost": 1.0,
+      "request_nonce": 0
+    }
+  },
+  "3": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "2",
+        0
+      ],
+      "filename_prefix": "H3_API_edit"
+    }
+  }
+}

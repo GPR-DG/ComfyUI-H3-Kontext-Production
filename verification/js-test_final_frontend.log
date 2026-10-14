@@ -1,0 +1,15 @@
+PASS provider A to B clears prior size
+PASS fixed provider to auto clears prior size
+PASS unchanged provider preserves explicit parameters
+PASS changed model clears prior size
+PASS changed alias clears prior size
+PASS unchanged mapping preserves explicit parameters
+✔ C:\Users\14301\Documents\Codex\2026-10-14\files-pasted-by-the-user-h3\outputs\ComfyUI-H3-Kontext-Production\h3_adapter_bundle\tests\test_final_frontend.mjs (85.2513ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 94.0362

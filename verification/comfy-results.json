@@ -1,0 +1,960 @@
+{
+  "passed": true,
+  "no_neural_inference": true,
+  "only_local_http": true,
+  "required_nodes": {
+    "H3CBackgroundTaskStart": {
+      "input": {
+        "required": {
+          "task_id": [
+            "STRING",
+            {
+              "default": "",
+              "multiline": false
+            }
+          ],
+          "db_path": [
+            "STRING",
+            {
+              "default": ":memory:",
+              "multiline": false
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task_id",
+          "db_path"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "BACKGROUND_TASK",
+        "STRING"
+      ],
+      "output_is_list": [
+        false,
+        false
+      ],
+      "output_name": [
+        "task",
+        "task_id"
+      ],
+      "name": "H3CBackgroundTaskStart",
+      "display_name": "H3 C Background Task Start",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "video/MiniMaxH3/C Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3CBestBackgroundFrame": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "shot_rgb_raw": [
+            "IMAGE"
+          ],
+          "shot_number": [
+            "INT",
+            {
+              "default": 1,
+              "min": 1
+            }
+          ],
+          "background_only": [
+            "BOOLEAN",
+            {
+              "default": false
+            }
+          ],
+          "analysis_edge": [
+            "INT",
+            {
+              "default": 320,
+              "min": 16
+            }
+          ],
+          "candidate_limit": [
+            "INT",
+            {
+              "default": 5,
+              "min": 1
+            }
+          ]
+        },
+        "optional": {
+          "person_masks": [
+            "MASK"
+          ],
+          "depth": [
+            "IMAGE"
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "shot_rgb_raw",
+          "shot_number",
+          "background_only",
+          "analysis_edge",
+          "candidate_limit"
+        ],
+        "optional": [
+          "person_masks",
+          "depth"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "BACKGROUND_CANDIDATE",
+        "IMAGE",
+        "MASK",
+        "INT",
+        "STRING"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "candidate",
+        "selected_frame",
+        "selected_mask",
+        "selected_index",
+        "report"
+      ],
+      "name": "H3CBestBackgroundFrame",
+      "display_name": "H3 C Best Background Frame",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "video/MiniMaxH3/C Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3CBackgroundResolve": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "candidate": [
+            "BACKGROUND_CANDIDATE"
+          ],
+          "revision": [
+            "STRING",
+            {
+              "default": "default",
+              "multiline": false
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "candidate",
+          "revision"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "BACKGROUND_VIEW",
+        "BACKGROUND_DECISION",
+        "IMAGE",
+        "STRING",
+        "STRING",
+        "BOOLEAN"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "view",
+        "decision",
+        "clean_background",
+        "view_id",
+        "state",
+        "ready"
+      ],
+      "name": "H3CBackgroundResolve",
+      "display_name": "H3 C Background Match / Resolve",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "video/MiniMaxH3/C Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3CBackgroundWashClaim": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "view": [
+            "BACKGROUND_VIEW"
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "view"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "STRING",
+        "BOOLEAN",
+        "STRING"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "wash_token",
+        "claimed",
+        "view_id"
+      ],
+      "name": "H3CBackgroundWashClaim",
+      "display_name": "H3 C Background Wash Claim",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "video/MiniMaxH3/C Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3CBackgroundFinish": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "view": [
+            "BACKGROUND_VIEW"
+          ],
+          "clean_background": [
+            "IMAGE"
+          ],
+          "wash_token": [
+            "STRING",
+            {
+              "forceInput": true
+            }
+          ]
+        },
+        "optional": {
+          "removal_mask": [
+            "MASK"
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "view",
+          "clean_background",
+          "wash_token"
+        ],
+        "optional": [
+          "removal_mask"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "BACKGROUND_VIEW",
+        "IMAGE",
+        "STRING"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "view",
+        "clean_background",
+        "report"
+      ],
+      "name": "H3CBackgroundFinish",
+      "display_name": "H3 C Background Attach Clean",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "video/MiniMaxH3/C Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3CBackgroundTaskCleanup": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "completion": [
+            "*",
+            {
+              "forceInput": true
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "completion"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "STRING",
+        "BOOLEAN"
+      ],
+      "output_is_list": [
+        false,
+        false
+      ],
+      "output_name": [
+        "report",
+        "cleaned"
+      ],
+      "name": "H3CBackgroundTaskCleanup",
+      "display_name": "H3 C Background Task Cleanup",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "video/MiniMaxH3/C Background",
+      "output_node": true,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3KBackgroundResolve": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "candidate": [
+            "BACKGROUND_CANDIDATE"
+          ],
+          "revision": [
+            "STRING",
+            {
+              "forceInput": true
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "candidate",
+          "revision"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "BACKGROUND_VIEW",
+        "BACKGROUND_DECISION",
+        "IMAGE",
+        "STRING",
+        "STRING",
+        "BOOLEAN"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "view",
+        "decision",
+        "clean_background",
+        "view_id",
+        "state",
+        "ready"
+      ],
+      "name": "H3KBackgroundResolve",
+      "display_name": "H3 Kontext BackgroundResolve",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "H3/Kontext Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3KBackgroundWashClaim": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "view": [
+            "BACKGROUND_VIEW"
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "view"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "STRING",
+        "BOOLEAN",
+        "STRING"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "wash_token",
+        "claimed",
+        "view_id"
+      ],
+      "name": "H3KBackgroundWashClaim",
+      "display_name": "H3 Kontext BackgroundWashClaim",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "H3/Kontext Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3KBackgroundFinish": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "view": [
+            "BACKGROUND_VIEW"
+          ],
+          "clean_background": [
+            "IMAGE",
+            {
+              "lazy": true
+            }
+          ],
+          "wash_token": [
+            "STRING",
+            {
+              "forceInput": true
+            }
+          ],
+          "removal_background": [
+            "IMAGE",
+            {
+              "lazy": true
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "view",
+          "clean_background",
+          "wash_token",
+          "removal_background"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "BACKGROUND_VIEW",
+        "IMAGE",
+        "STRING",
+        "BOOLEAN",
+        "IMAGE",
+        "STRING",
+        "IMAGE"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "view",
+        "clean_background",
+        "report",
+        "ready",
+        "A_original",
+        "scene_prompt",
+        "B_kontext"
+      ],
+      "name": "H3KBackgroundFinish",
+      "display_name": "H3 Kontext BackgroundFinish",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "H3/Kontext Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3KBackgroundSource": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "view": [
+            "BACKGROUND_VIEW"
+          ],
+          "wash_token": [
+            "STRING",
+            {
+              "forceInput": true
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "view",
+          "wash_token"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "IMAGE",
+        "H3K_CANVAS"
+      ],
+      "output_is_list": [
+        false,
+        false
+      ],
+      "output_name": [
+        "letterboxed_candidate",
+        "canvas"
+      ],
+      "name": "H3KBackgroundSource",
+      "display_name": "H3 Kontext BackgroundSource",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "H3/Kontext Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3StageGuard": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "view": [
+            "BACKGROUND_VIEW"
+          ],
+          "wash_token": [
+            "STRING",
+            {
+              "forceInput": true
+            }
+          ],
+          "pixels": [
+            "IMAGE"
+          ],
+          "canvas": [
+            "H3K_CANVAS"
+          ],
+          "stage": [
+            [
+              "kontext",
+              "z_image"
+            ]
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "view",
+          "wash_token",
+          "pixels",
+          "canvas",
+          "stage"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "IMAGE",
+        "IMAGE",
+        "STRING"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "model_canvas",
+        "original_size_result",
+        "report"
+      ],
+      "name": "H3StageGuard",
+      "display_name": "H3 Kontext StageGuard",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "H3/Kontext Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3KRecipe": {
+      "input": {
+        "required": {
+          "denoise": [
+            "FLOAT",
+            {
+              "forceInput": true
+            }
+          ],
+          "removal_prompt": [
+            "STRING",
+            {
+              "multiline": true
+            }
+          ],
+          "kontext_node_id": [
+            "STRING",
+            {
+              "default": "7523"
+            }
+          ],
+          "z_node_id": [
+            "STRING",
+            {
+              "default": "7411"
+            }
+          ]
+        },
+        "hidden": {
+          "prompt": "PROMPT"
+        }
+      },
+      "input_order": {
+        "required": [
+          "denoise",
+          "removal_prompt",
+          "kontext_node_id",
+          "z_node_id"
+        ],
+        "hidden": [
+          "prompt"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "STRING",
+        "STRING"
+      ],
+      "output_is_list": [
+        false,
+        false
+      ],
+      "output_name": [
+        "revision",
+        "removal_prompt"
+      ],
+      "name": "H3KRecipe",
+      "display_name": "H3 Kontext Recipe",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "H3/Kontext Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3KPromptCapture": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "view": [
+            "BACKGROUND_VIEW"
+          ],
+          "text": [
+            "STRING",
+            {
+              "forceInput": true
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "view",
+          "text"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "STRING"
+      ],
+      "output_is_list": [
+        false
+      ],
+      "output_name": [
+        "scene_prompt"
+      ],
+      "name": "H3KPromptCapture",
+      "display_name": "H3 Kontext PromptCapture",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "H3/Kontext Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "H3StagePreview": {
+      "input": {
+        "required": {
+          "task": [
+            "BACKGROUND_TASK"
+          ],
+          "view": [
+            "BACKGROUND_VIEW"
+          ],
+          "wash_token": [
+            "STRING",
+            {
+              "forceInput": true
+            }
+          ],
+          "removal_background": [
+            "IMAGE",
+            {
+              "lazy": true
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "task",
+          "view",
+          "wash_token",
+          "removal_background"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "IMAGE",
+        "IMAGE"
+      ],
+      "output_is_list": [
+        false,
+        false
+      ],
+      "output_name": [
+        "model_canvas",
+        "kontext_result"
+      ],
+      "name": "H3StagePreview",
+      "display_name": "H3 Kontext StagePreview",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-H3-Kontext-Production",
+      "category": "H3/Kontext Background",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    }
+  },
+  "original_json": {
+    "sha256": "55dd887459a485366d75ff725b70da03bbab285bfd954e51ff984c05b93435f3",
+    "h3_node_instances": [
+      {
+        "id": 700,
+        "type": "H3ShotSceneVLM",
+        "status": "PASS"
+      },
+      {
+        "id": 713,
+        "type": "H3OptionalPicture3",
+        "status": "PASS"
+      },
+      {
+        "id": 714,
+        "type": "H3CShotPlanner",
+        "status": "PASS"
+      },
+      {
+        "id": 716,
+        "type": "H3CShotPolicy",
+        "status": "PASS"
+      },
+      {
+        "id": 717,
+        "type": "H3CPromptCompiler",
+        "status": "PASS"
+      },
+      {
+        "id": 718,
+        "type": "H3CShotTrim",
+        "status": "PASS"
+      },
+      {
+        "id": 719,
+        "type": "H3COrderedMergeStep",
+        "status": "PASS"
+      },
+      {
+        "id": 720,
+        "type": "H3COrderedMergeFinish",
+        "status": "PASS"
+      },
+      {
+        "id": 7001,
+        "type": "H3CShotDualRefPad",
+        "status": "PASS"
+      },
+      {
+        "id": 7002,
+        "type": "H3CShotGuideWindowPlanner",
+        "status": "PASS"
+      },
+      {
+        "id": 7003,
+        "type": "H3CShotGuideWindowSelect",
+        "status": "PASS"
+      },
+      {
+        "id": 7004,
+        "type": "H3CShotGuideWindowAppend",
+        "status": "PASS"
+      },
+      {
+        "id": 7039,
+        "type": "H3CShotReferenceRouter",
+        "status": "PASS"
+      },
+      {
+        "id": 7043,
+        "type": "H3CBackgroundTaskStart",
+        "status": "PASS"
+      },
+      {
+        "id": 7044,
+        "type": "H3CBestBackgroundFrame",
+        "status": "PASS"
+      },
+      {
+        "id": 7045,
+        "type": "H3KBackgroundResolve",
+        "status": "PASS"
+      },
+      {
+        "id": 7046,
+        "type": "H3KBackgroundWashClaim",
+        "status": "PASS"
+      },
+      {
+        "id": 7047,
+        "type": "H3KBackgroundFinish",
+        "status": "PASS"
+      },
+      {
+        "id": 7048,
+        "type": "H3CBackgroundTaskCleanup",
+        "status": "PASS"
+      },
+      {
+        "id": 7320,
+        "type": "H3KBackgroundSource",
+        "status": "PASS"
+      },
+      {
+        "id": 7321,
+        "type": "H3KStageGuard",
+        "status": "PASS"
+      },
+      {
+        "id": 7322,
+        "type": "H3KRecipe",
+        "status": "PASS"
+      },
+      {
+        "id": 7323,
+        "type": "H3KPromptCapture",
+        "status": "PASS"
+      },
+      {
+        "id": 7331,
+        "type": "H3KStageGuard",
+        "status": "PASS"
+      },
+      {
+        "id": 7524,
+        "type": "H3KStagePreview",
+        "status": "PASS"
+      }
+    ],
+    "h3_missing": [],
+    "external_unavailable_in_isolated_host": [],
+    "complete_workflow_inference_tested": false
+  },
+  "h3c_scheduler": {
+    "prompt_id": "d3e12f9a-ff1d-436c-a093-b6eb55ba3dcb",
+    "status": "success",
+    "output": {
+      "state": "READY",
+      "shape": [
+        1,
+        32,
+        48,
+        3
+      ],
+      "task_id": "production-c-3796a87dcdae4fbfbd15d4b464ced0a4",
+      "view_id": "e791859e00a0479eaf2bc9fcdd3567e8"
+    }
+  },
+  "h3k_scheduler": {
+    "prompt_id": "ec86eee9-412c-4026-9bdc-cdff18320f3e",
+    "status": "success",
+    "output": {
+      "state": "READY",
+      "shape": [
+        1,
+        32,
+        48,
+        3
+      ],
+      "task_id": "production-k-86e7e62444bf4beb9d7c68debd0fcab0",
+      "view_id": "d72790e4403242f3ba0ea032b5437cd0"
+    }
+  },
+  "api_management_route_status": 200,
+  "adapter_web_extension": "/extensions/ComfyUI-H3-Kontext-Production/h3_adapter.js"
+}

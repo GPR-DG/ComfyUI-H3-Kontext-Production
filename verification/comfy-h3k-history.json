@@ -1,0 +1,321 @@
+{
+  "prompt": [
+    1,
+    "ec86eee9-412c-4026-9bdc-cdff18320f3e",
+    {
+      "1": {
+        "class_type": "ProductionFixtureImage",
+        "inputs": {
+          "seed": 23
+        }
+      },
+      "2": {
+        "class_type": "H3CBackgroundTaskStart",
+        "inputs": {
+          "task_id": "production-k",
+          "db_path": ":memory:"
+        }
+      },
+      "3": {
+        "class_type": "H3CBestBackgroundFrame",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "shot_rgb_raw": [
+            "1",
+            0
+          ],
+          "shot_number": 1,
+          "background_only": false,
+          "analysis_edge": 32,
+          "candidate_limit": 2,
+          "person_masks": [
+            "1",
+            1
+          ]
+        }
+      },
+      "4": {
+        "class_type": "H3KRecipe",
+        "inputs": {
+          "denoise": 0.86,
+          "removal_prompt": "remove all people",
+          "kontext_node_id": "8",
+          "z_node_id": "12"
+        }
+      },
+      "5": {
+        "class_type": "H3KBackgroundResolve",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "candidate": [
+            "3",
+            0
+          ],
+          "revision": [
+            "4",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "H3KBackgroundWashClaim",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "5",
+            0
+          ]
+        }
+      },
+      "7": {
+        "class_type": "H3KBackgroundSource",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "5",
+            0
+          ],
+          "wash_token": [
+            "6",
+            0
+          ]
+        }
+      },
+      "8": {
+        "class_type": "H3StageGuard",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "5",
+            0
+          ],
+          "wash_token": [
+            "6",
+            0
+          ],
+          "pixels": [
+            "7",
+            0
+          ],
+          "canvas": [
+            "7",
+            1
+          ],
+          "stage": "kontext"
+        }
+      },
+      "9": {
+        "class_type": "H3StagePreview",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "5",
+            0
+          ],
+          "wash_token": [
+            "6",
+            0
+          ],
+          "removal_background": [
+            "8",
+            1
+          ]
+        }
+      },
+      "10": {
+        "class_type": "H3KPromptCapture",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "5",
+            0
+          ],
+          "text": [
+            "1",
+            2
+          ]
+        }
+      },
+      "11": {
+        "class_type": "ProductionFixtureZCanvas",
+        "inputs": {
+          "pixels": [
+            "9",
+            0
+          ],
+          "scene_prompt": [
+            "10",
+            0
+          ]
+        }
+      },
+      "12": {
+        "class_type": "H3StageGuard",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "5",
+            0
+          ],
+          "wash_token": [
+            "6",
+            0
+          ],
+          "pixels": [
+            "11",
+            0
+          ],
+          "canvas": [
+            "7",
+            1
+          ],
+          "stage": "z_image"
+        }
+      },
+      "13": {
+        "class_type": "H3KBackgroundFinish",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "5",
+            0
+          ],
+          "wash_token": [
+            "6",
+            0
+          ],
+          "clean_background": [
+            "12",
+            1
+          ],
+          "removal_background": [
+            "8",
+            1
+          ]
+        }
+      },
+      "14": {
+        "class_type": "ProductionFixtureSink",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "13",
+            0
+          ],
+          "pixels": [
+            "13",
+            1
+          ],
+          "report": [
+            "13",
+            2
+          ]
+        }
+      },
+      "15": {
+        "class_type": "H3CBackgroundTaskCleanup",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "completion": [
+            "14",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "create_time": 1791959859411
+    },
+    [
+      "14",
+      "15"
+    ]
+  ],
+  "outputs": {
+    "13": {
+      "text": [
+        "{\"view_id\": \"d72790e4403242f3ba0ea032b5437cd0\", \"state\": \"READY\", \"pipeline\": \"Kontext6+Qwen+Z-Image\", \"cache_hit\": false, \"visual_quality_verified\": false}"
+      ]
+    },
+    "14": {
+      "text": [
+        "{\"state\": \"READY\", \"shape\": [1, 32, 48, 3], \"task_id\": \"production-k-86e7e62444bf4beb9d7c68debd0fcab0\", \"view_id\": \"d72790e4403242f3ba0ea032b5437cd0\"}"
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "ec86eee9-412c-4026-9bdc-cdff18320f3e",
+          "timestamp": 1791959859412
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "ec86eee9-412c-4026-9bdc-cdff18320f3e",
+          "timestamp": 1791959859414
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "ec86eee9-412c-4026-9bdc-cdff18320f3e",
+          "timestamp": 1791959859574
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "13": {
+      "node_id": "13",
+      "display_node": "13",
+      "parent_node": null,
+      "real_node_id": "13"
+    },
+    "14": {
+      "node_id": "14",
+      "display_node": "14",
+      "parent_node": null,
+      "real_node_id": "14"
+    }
+  }
+}

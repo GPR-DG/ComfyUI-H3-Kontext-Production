@@ -1,0 +1,15 @@
+PASS new provider does not reuse deleted private identity
+PASS new provider does not inherit shipped primary environment
+PASS key save sends displayed revision and successful config save updates it
+PASS unapplied provider ID BaseURL or key_env prevents key HTTP
+PASS unsaved JSON identity prevents key until explicit config save
+PASS pending config save stores clicked snapshot not later editor content
+✔ C:\Users\14301\Documents\Codex\2026-10-14\files-pasted-by-the-user-h3\outputs\ComfyUI-H3-Kontext-Production\h3_adapter_bundle\tests\test_round4_frontend.mjs (88.2165ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 96.4867

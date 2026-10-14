@@ -1,0 +1,1075 @@
+{
+  "files": [
+    {
+      "path": "h3_core/README.md",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "README.md",
+      "github_blob_sha": "fd9811a89fc6067420e3a0b4b5d92ca16dd829dd",
+      "sha256": "b5192527e7a6f3effc646d6333c26d23a8f6632f27fd5b156882d0e9565c7d54",
+      "bytes": 11293
+    },
+    {
+      "path": "h3_core/__init__.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "__init__.py",
+      "github_blob_sha": "497372a4fad182ecba60a726d6dd6e99011d6edb",
+      "sha256": "4b392c9efafe754233e1d91c24815c9a1bec6ee5f97a226f4c554b131c546eca",
+      "bytes": 3072
+    },
+    {
+      "path": "h3_core/h3_background_cache.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_background_cache.py",
+      "github_blob_sha": "1f121ab56df586598dcc549c2c345e1e4236d680",
+      "sha256": "f55e04251f4085ce10f7411a262af392b61b795357edb14919530c8d9fa059c4",
+      "bytes": 19901
+    },
+    {
+      "path": "h3_core/h3_background_contracts.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_background_contracts.py",
+      "github_blob_sha": "c8791dea0fcf7e02c01ffa704616885fbad03874",
+      "sha256": "f74e17f9b6145a3f2208eec210be6125636feb858f094898e24d9fe7e71f0b31",
+      "bytes": 6684
+    },
+    {
+      "path": "h3_core/h3_background_nodes.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_background_nodes.py",
+      "github_blob_sha": "a1d881cdbca823949dda7a33a8dd2de3dc3d7401",
+      "sha256": "3f6a8db4f77634ee3f6c1f25f4b8f40d80ec9e209791d609ca1adc70535f4cb9",
+      "bytes": 11466
+    },
+    {
+      "path": "h3_core/h3_best_background_frame.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_best_background_frame.py",
+      "github_blob_sha": "1e7e48a30399f4f3073401c7641b0ac0a2eec8f6",
+      "sha256": "b4035a9cd8acc1ac12b7f26959e074a8a7c9f7ebf49eee8b06308c6ee7aca45f",
+      "bytes": 7976
+    },
+    {
+      "path": "h3_core/h3_environment_matcher.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_environment_matcher.py",
+      "github_blob_sha": "66fb50686aeb7be5bf78ba9e5c560bbc50cf9bf3",
+      "sha256": "23442b522a92630baa777852027c837d6d76b3086e5e4ffa0d42600b571889b3",
+      "bytes": 20784
+    },
+    {
+      "path": "h3_core/h3_hardcut_modular_c.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_hardcut_modular_c.py",
+      "github_blob_sha": "b4769b6d88f9a53b641853383552acd199ef2616",
+      "sha256": "5c09494e177bbab5a87c848565db553197f80a1863058236a5cd432370a5577f",
+      "bytes": 18181
+    },
+    {
+      "path": "h3_core/h3_hardcut_ref_adapters.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_hardcut_ref_adapters.py",
+      "github_blob_sha": "abc3b2bcaad3853af9662e391d7830d7563fab50",
+      "sha256": "10dc33aaadaa76f50dc085ee2cc77ac646c318a7e3f16c4f3a5961f37c637f85",
+      "bytes": 25443
+    },
+    {
+      "path": "h3_core/h3_hardcut_runner_a.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_hardcut_runner_a.py",
+      "github_blob_sha": "f91da2774303362e69d3e30f14e634d4908bdc6c",
+      "sha256": "1f1fafa2b807e2e425dcc9c3f0b4951f9be4dc818ede1556e231d8de4f2a0cb4",
+      "bytes": 26585
+    },
+    {
+      "path": "h3_core/h3_hardcut_runner_b.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_hardcut_runner_b.py",
+      "github_blob_sha": "d0f0e3e35fdb206dcb4ffeda997c9f5d9cb00d54",
+      "sha256": "a8d2f12980668fc642b5c05e5ce0edeaa85aa63d23bf9421661af05ed8353a7a",
+      "bytes": 29105
+    },
+    {
+      "path": "h3_core/h3_hardcut_runner_c.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_hardcut_runner_c.py",
+      "github_blob_sha": "17464a46b970ff0210f1c5f6268addc2d077612c",
+      "sha256": "895d7c30ef694b745ad1c1b6e333bd4872752ba24d560d320ce707b13ee60c41",
+      "bytes": 58721
+    },
+    {
+      "path": "h3_core/h3_hardcut_runtime.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_hardcut_runtime.py",
+      "github_blob_sha": "773f66dd07bcac216f7e79100f9bb7161bada199",
+      "sha256": "8ba374982549549406bd5c8b70f38916710d41241c05c504af290e7f2ec65ec0",
+      "bytes": 18911
+    },
+    {
+      "path": "h3_core/h3_shot_reference_router.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "h3_shot_reference_router.py",
+      "github_blob_sha": "f6b66b352d0aa4a5c8a42310cdcb9e8fcffde6f3",
+      "sha256": "3b3260a72ce0640f88d5de8c5e31603c6d9a11deaaa5b5819198c36c0584f700",
+      "bytes": 6351
+    },
+    {
+      "path": "h3_core/tests/test_background_nodes.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "tests/test_background_nodes.py",
+      "github_blob_sha": "164cb827a9b958f66ad0198e6da918e2949f57d3",
+      "sha256": "07fcfe3fd12d07a95035ee379b5e4a12484576e1b86895f7ce7bae3bd8dd7944",
+      "bytes": 13518
+    },
+    {
+      "path": "h3_core/tests/test_h3_hardcut_ref_adapters.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "tests/test_h3_hardcut_ref_adapters.py",
+      "github_blob_sha": "4a9598342e30416bbe12532c9d50f90602a67662",
+      "sha256": "c48ffce89bf8d1751e946c495d8504ec9119ebff60faffdbfd18bc183540bfb5",
+      "bytes": 22481
+    },
+    {
+      "path": "h3_core/tests/test_h3_modular_c.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "tests/test_h3_modular_c.py",
+      "github_blob_sha": "558daa2aa464622db2f3a515700a8bf7b489fffa",
+      "sha256": "bce273ec2852ec0b5381bc6cb244d734b7e523f437af5b0c8a24dc97a0f68592",
+      "bytes": 32206
+    },
+    {
+      "path": "h3_core/tests/test_h3_shot_reference_router.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "tests/test_h3_shot_reference_router.py",
+      "github_blob_sha": "6244032277e5457c90b2c29ddfe64685d5456dc9",
+      "sha256": "9033fbd1b915d48a6d5c5d22c72c7f8de4412be24dcf3efc73b6570497e11cb4",
+      "bytes": 27165
+    },
+    {
+      "path": "h3_core/tools/build_h3_modular_c.py",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": "tools/build_h3_modular_c.py",
+      "github_blob_sha": "27f4371dc81dd06088c7a00a8be9a49d7917567f",
+      "sha256": "399981dde4e80607b345636898b13ba8740fdf3c32f2aa74caa5ae6392d8483f",
+      "bytes": 19992
+    },
+    {
+      "path": "h3_adapter_bundle/CHANGELOG.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "CHANGELOG.md",
+      "github_blob_sha": "1ab9aecec5c26dcca18d019278153edfbc220478",
+      "sha256": "f4c7623d58c3f61bf5f99af3d2e5cbb45d091ebaf2da4e1ebe64e1b1d2c2573e",
+      "bytes": 3840
+    },
+    {
+      "path": "h3_adapter_bundle/FINAL_AUDIT_REPORT.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "FINAL_AUDIT_REPORT.md",
+      "github_blob_sha": "2a086a8ad719a398bb81e20f2c01502627d66fe2",
+      "sha256": "c0c0f39f76b8abe04cdcc298caf8cfe64b5b1970ece9bd0661246bc84e6f5394",
+      "bytes": 17763
+    },
+    {
+      "path": "h3_adapter_bundle/LICENSE",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "LICENSE",
+      "github_blob_sha": "619d860d489be209936a8709c22110b36e25e697",
+      "sha256": "7746c5726c5b12cc5027a3e2f69119f250c03ba131c4b15769fc23277cdf1501",
+      "bytes": 1081
+    },
+    {
+      "path": "h3_adapter_bundle/README.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "README.md",
+      "github_blob_sha": "4c2fc830e173b46f6cbcbd36519fe1f9065490f1",
+      "sha256": "50b09afd6c10b3e914c10f23bccba2f5726f11db5bb60b466dfbedb123664f0c",
+      "bytes": 19491
+    },
+    {
+      "path": "h3_adapter_bundle/RELEASE_CHECKLIST.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "RELEASE_CHECKLIST.md",
+      "github_blob_sha": "9400b296976dfc39b4ca8ff010192e56b847fcaa",
+      "sha256": "fb0ea0ada3b468d7528c1915e9755508ea20cae280a16f6bdff95a3b9ea93ede",
+      "bytes": 3127
+    },
+    {
+      "path": "h3_adapter_bundle/SOURCE-MANIFEST.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "SOURCE-MANIFEST.json",
+      "github_blob_sha": "1a424af100fa44cf9ed228210a19ced732277236",
+      "sha256": "3fbaf26cc7ec2efd48b83474ad4b8897fc7595b81e2046c369faa864c30fe724",
+      "bytes": 16043
+    },
+    {
+      "path": "h3_adapter_bundle/SOURCE_MAP.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "SOURCE_MAP.md",
+      "github_blob_sha": "06b9d3e332f526fbca531c984f86c2bd9c17706c",
+      "sha256": "f0a5891d5f436a73f6d2f7f10c944810795338ec55e658714cf352103f3275e9",
+      "bytes": 10203
+    },
+    {
+      "path": "h3_adapter_bundle/__init__.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "__init__.py",
+      "github_blob_sha": "ab4772580179210632117007e24df33ebdc268d6",
+      "sha256": "7a1c95d3d1446fb469a3bad5d6e64071421e36c0cb7aa22e8ecf5db4acbffcc3",
+      "bytes": 1406
+    },
+    {
+      "path": "h3_adapter_bundle/config/protocol-variants.example.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "config/protocol-variants.example.json",
+      "github_blob_sha": "7e599e45f66e9f5f721bfe836b6359b246ab6853",
+      "sha256": "0d9bcc321caa5e1a6164e3ffd0532f379e36ad51a1ccdc9c2e608de191176ed5",
+      "bytes": 5806
+    },
+    {
+      "path": "h3_adapter_bundle/config/providers.example.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "config/providers.example.json",
+      "github_blob_sha": "c20ef97eec065380c8be39306525f96c3fe73719",
+      "sha256": "2f91072fca96191f4a52d8ab72687d0ca2ada7d6d526e96fd4a515546e9ce972",
+      "bytes": 4900
+    },
+    {
+      "path": "h3_adapter_bundle/config/providers.mock.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "config/providers.mock.json",
+      "github_blob_sha": "6af27177e4632316c64fa26d5aeb67a31df7cada",
+      "sha256": "915351fdf3b475188b59b553c2be7a086b2d4d26e90295f1e25c282bb19f6fda",
+      "bytes": 5207
+    },
+    {
+      "path": "h3_adapter_bundle/docs/ARCHITECTURE.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/ARCHITECTURE.md",
+      "github_blob_sha": "38d164dc125fe63213c821fb3f47c3bfcd950708",
+      "sha256": "54216a8d9ae5f1322e1350d1f8c482bd08af57a318d943bf2ff76e9eba16539d",
+      "bytes": 3566
+    },
+    {
+      "path": "h3_adapter_bundle/docs/AUDIT-017.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/AUDIT-017.md",
+      "github_blob_sha": "e4f31b2ecc49a5322121332594f21828c66d9f1b",
+      "sha256": "28f1a7f69ad7e8a9da81a203ef8960d8e6a639d6c88512a84e0ed2b835426a26",
+      "bytes": 7928
+    },
+    {
+      "path": "h3_adapter_bundle/docs/AUDIT-ROUND2.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/AUDIT-ROUND2.md",
+      "github_blob_sha": "b98c845789df837ad2fb704452ec39e12cb496d8",
+      "sha256": "bace927ce7b34b8f4bf7a355fe2c591bb8443c2a9bf784ddd80bbc59c3967664",
+      "bytes": 26494
+    },
+    {
+      "path": "h3_adapter_bundle/docs/AUDIT-ROUND3.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/AUDIT-ROUND3.md",
+      "github_blob_sha": "f41904971d46e290fa85e699da035c531e95c43c",
+      "sha256": "9d7b59856ff7bee0c5e8314fc24f1bfeac3543158dfa261527fdbd79a0da768b",
+      "bytes": 25078
+    },
+    {
+      "path": "h3_adapter_bundle/docs/AUDIT-ROUND4.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/AUDIT-ROUND4.md",
+      "github_blob_sha": "0b90991e7be7aea1faf263de00563e0f559110fa",
+      "sha256": "6cef9428acfc0acbe58f9fea8861ab2600643112b792694b44ee7ad654ab899d",
+      "bytes": 18850
+    },
+    {
+      "path": "h3_adapter_bundle/docs/AUDIT-ROUND5-FOLLOWUP.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/AUDIT-ROUND5-FOLLOWUP.md",
+      "github_blob_sha": "f692dc04c518bbaf022af69982d370f96f681205",
+      "sha256": "19582bbafb63e4f1966ce3447d8ba7833daf3149c993c6e9f2135f1d07e16b35",
+      "bytes": 17430
+    },
+    {
+      "path": "h3_adapter_bundle/docs/AUDIT-ROUND5.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/AUDIT-ROUND5.md",
+      "github_blob_sha": "67f0ee8b9344e0c917c6afd8d72eb34bad77b69e",
+      "sha256": "0ddab30a8b37b55753df4532e058e23ffcbc96f6ffb549fc84143337a18731f5",
+      "bytes": 20490
+    },
+    {
+      "path": "h3_adapter_bundle/docs/CANDIDATE-EVIDENCE.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/CANDIDATE-EVIDENCE.md",
+      "github_blob_sha": "878db5a7f5e05d7f7267b22d8fced24ae8d3e5e8",
+      "sha256": "b417287d97ccddf230f5474aac3e02dba6efc2f5d205519c168c7cfdae03ff2d",
+      "bytes": 10753
+    },
+    {
+      "path": "h3_adapter_bundle/docs/CHANGELOG.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/CHANGELOG.md",
+      "github_blob_sha": "1839318f3ac5664990c34ca5c2b9fdd00c6c45f1",
+      "sha256": "2406d15b7cb729c0c7224a9f0abf8c3b0a7ea510847568c53ede58c491a9df6e",
+      "bytes": 2172
+    },
+    {
+      "path": "h3_adapter_bundle/docs/GATEWAY-EVIDENCE.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/GATEWAY-EVIDENCE.md",
+      "github_blob_sha": "5a3365544ebf1b6e197997128e7aba5ff51e141b",
+      "sha256": "245860e97aecb40a009f88d3d4df87fc274eec633523ae369ffe29c3c8d67454",
+      "bytes": 9624
+    },
+    {
+      "path": "h3_adapter_bundle/docs/H3K-DELIVERY.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/H3K-DELIVERY.md",
+      "github_blob_sha": "db6b91dcd6c7b35fc153ebb338352ceb89693145",
+      "sha256": "4c7bd14d243be45bd55856fcec9fb23d6cf4a679fd785bb6951f3933918af765",
+      "bytes": 7040
+    },
+    {
+      "path": "h3_adapter_bundle/docs/H3K-TARGET-PORTS.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/H3K-TARGET-PORTS.json",
+      "github_blob_sha": "40910385a1b6c6b0fa5a268eedad941c9fdd8913",
+      "sha256": "c284e2ab5e296aa267f126e33d7086e06e3c682f854cd75bf27a15d3fb2ac5be",
+      "bytes": 10666
+    },
+    {
+      "path": "h3_adapter_bundle/docs/HANDOVER.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/HANDOVER.md",
+      "github_blob_sha": "d4235eb63b1ca4c8bcbb586f1f8a85343ccca844",
+      "sha256": "97c5c49889634e782afa3af57eddeca5ac33e2ca141cbaa9cff15b07e39a6d3c",
+      "bytes": 7358
+    },
+    {
+      "path": "h3_adapter_bundle/docs/INTEGRATED-WORKFLOW-NODES.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/INTEGRATED-WORKFLOW-NODES.json",
+      "github_blob_sha": "deb505a2e08d39fb6b751a8c123d8096859ca405",
+      "sha256": "7ee5159dd2be59593c2106c1fc29fe3bea113ee9e3538b2cfc4a417b40389dd1",
+      "bytes": 2041
+    },
+    {
+      "path": "h3_adapter_bundle/docs/INTEGRATION-VALIDATION.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/INTEGRATION-VALIDATION.md",
+      "github_blob_sha": "222a239d7f67fcdcbcf1489f990ea617fc7061af",
+      "sha256": "8a20b31c083475cf48694b2b5e3d74c3ad7ebce6570389b0b1b88fd210f0c009",
+      "bytes": 4945
+    },
+    {
+      "path": "h3_adapter_bundle/docs/PROTOCOLS.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/PROTOCOLS.md",
+      "github_blob_sha": "e6063a6519f078e0992211cfb0af9077017bd56e",
+      "sha256": "7bffac943ba9b76e8b7fdb1d040379cca8850e730661fa2375252290dfb9a458",
+      "bytes": 13829
+    },
+    {
+      "path": "h3_adapter_bundle/docs/REVIEW.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/REVIEW.md",
+      "github_blob_sha": "5bb83709300c98c44a4217130f5807da4d90249d",
+      "sha256": "dee7868269c7dff108bd9f26983a23ff2767a8e08c71db3adc6af135e68e243d",
+      "bytes": 6508
+    },
+    {
+      "path": "h3_adapter_bundle/docs/RH-INTEGRATED-INSTALL.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/RH-INTEGRATED-INSTALL.md",
+      "github_blob_sha": "a34ef9448fb92be72873fa89929ff8e323367c13",
+      "sha256": "b04fac483a67315c775c5b5efb69135c1134263b13ec4a7a96cb31a8e2fb105c",
+      "bytes": 9448
+    },
+    {
+      "path": "h3_adapter_bundle/docs/RUNNINGHUB.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/RUNNINGHUB.md",
+      "github_blob_sha": "3fb9c612b76a020d7c38b2f76bba50bb73b458ec",
+      "sha256": "13461ef6e0b11a6ff202b7e450aab5c82bf4a6a38222d5c084a9c64ba5d33e9f",
+      "bytes": 10575
+    },
+    {
+      "path": "h3_adapter_bundle/docs/TESTING.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/TESTING.md",
+      "github_blob_sha": "2976e16194e24a545c4914bd1eadf779d21f64cb",
+      "sha256": "79198bef9e9d905c9f2fe0d6566641ab8b1b58def492f181793c43eb7ef3834c",
+      "bytes": 12995
+    },
+    {
+      "path": "h3_adapter_bundle/docs/THIRD-PARTY.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/THIRD-PARTY.md",
+      "github_blob_sha": "1590354354959a5544aa2b4b69298d18da785d1d",
+      "sha256": "c14f4d18c4c418fd59c295d2a5fecbe5f432ff7107574e8dcc7a76ec531ed1b6",
+      "bytes": 1129
+    },
+    {
+      "path": "h3_adapter_bundle/docs/VALIDATION.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "docs/VALIDATION.md",
+      "github_blob_sha": "2524ac157b8e93d8f4bd7824740dab429f6498fd",
+      "sha256": "ead7e12eaa0039211c1b1084fe82f707807865b655bfc1279c5046152cde1745",
+      "bytes": 4457
+    },
+    {
+      "path": "h3_adapter_bundle/examples/example_input.png",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "examples/example_input.png",
+      "github_blob_sha": "dcf89579e8fb0bfef420650860ebc8d04ed13496",
+      "sha256": "c9bd4767d2972156c7e0b8d50c7efb5d239c7488122e102d5b5a8c9120a89c0f",
+      "bytes": 293
+    },
+    {
+      "path": "h3_adapter_bundle/examples/image_edit_minimal.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "examples/image_edit_minimal.json",
+      "github_blob_sha": "326f1620e6fd2e8ce320655b0eafc471fa159699",
+      "sha256": "94c73b84ff087514978ae82473fb572ec9326cd1e135e9f5f421193d73cef7ef",
+      "bytes": 2895
+    },
+    {
+      "path": "h3_adapter_bundle/examples/image_edit_minimal_api.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "examples/image_edit_minimal_api.json",
+      "github_blob_sha": "dd902dbfbe9e83b36c5d1621c921612f2ff2844a",
+      "sha256": "6d1ebe1ed3bfcac6419f5fd03e86464d4e6e4a5ebf4427517b9c52622f4d2edd",
+      "bytes": 699
+    },
+    {
+      "path": "h3_adapter_bundle/h3_adapter/__init__.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_adapter/__init__.py",
+      "github_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "h3_adapter_bundle/h3_adapter/config.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_adapter/config.py",
+      "github_blob_sha": "f83d2f8f10968fdeeb89f33778a898034c4bceac",
+      "sha256": "458109ea653de8a5bfe7cc090ba26199334dab639a62d1ca86c08390accc7bfe",
+      "bytes": 20242
+    },
+    {
+      "path": "h3_adapter_bundle/h3_adapter/engine.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_adapter/engine.py",
+      "github_blob_sha": "5a2b8f06d6a0caaa4ccd64fbf7e0adfd00af5555",
+      "sha256": "f97d3dfc5e4517c59a79c76ec19cb05486ab40f838c7a7b601cfab409b08f18f",
+      "bytes": 16938
+    },
+    {
+      "path": "h3_adapter_bundle/h3_adapter/ledger.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_adapter/ledger.py",
+      "github_blob_sha": "c3dbd1545de6e5a7cc0e260b68ad27b02fbd7a21",
+      "sha256": "98327024ba33d7086c13e0b1d19f0be87d409d0f62bd2e2af83bf9448306bb5b",
+      "bytes": 6336
+    },
+    {
+      "path": "h3_adapter_bundle/h3_adapter/protocol.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_adapter/protocol.py",
+      "github_blob_sha": "caaaa0f59e434c8761301bac29bd734ef066cf1e",
+      "sha256": "71c785ca467412d263eea9b407a678730b4cabbfadee8ad0ff14a94bc4a88879",
+      "bytes": 17831
+    },
+    {
+      "path": "h3_adapter_bundle/h3_adapter/routes.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_adapter/routes.py",
+      "github_blob_sha": "c1a75ac0fceda9a7a0987408af1831424f799675",
+      "sha256": "c57d4ff308ef1d4a2232d193122751c665c54dc92cb5c9c52b1e4e8bb9e15043",
+      "bytes": 4870
+    },
+    {
+      "path": "h3_adapter_bundle/h3_background_bridge/__init__.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_background_bridge/__init__.py",
+      "github_blob_sha": "5aa0f4175f61ab4ab6a0424cf5cce22c75646086",
+      "sha256": "cebf06c8c0fd096d61ec31ae4a498671ff5f98d1cabdfd06d5d7df5d30f6a72c",
+      "bytes": 67
+    },
+    {
+      "path": "h3_adapter_bundle/h3_background_bridge/adapter-required-sha256.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_background_bridge/adapter-required-sha256.json",
+      "github_blob_sha": "8bd0cb978eecb68bc267f10a6c09e6b8385a132c",
+      "sha256": "e4838f3bd1295a53580d362eac4936d61b21c94d1199b9177b787575a9e0ecd6",
+      "bytes": 557
+    },
+    {
+      "path": "h3_adapter_bundle/h3_background_bridge/nodes.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_background_bridge/nodes.py",
+      "github_blob_sha": "2ea61b5c0922f2b4631d981aa38c5993feb4cc39",
+      "sha256": "b9a9aae36c55f3228225387f12af4151e912c4c343d56688cf558f38395806a6",
+      "bytes": 16426
+    },
+    {
+      "path": "h3_adapter_bundle/h3_kontext_bridge/__init__.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_kontext_bridge/__init__.py",
+      "github_blob_sha": "39a8c6bf593f484470ded4f9172655157d6845db",
+      "sha256": "4c0f96b0f0006df5a559d09d44b8d521a32d7992383223310b5ba2a3f88e3e42",
+      "bytes": 132
+    },
+    {
+      "path": "h3_adapter_bundle/h3_kontext_bridge/core-required-sha256.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_kontext_bridge/core-required-sha256.json",
+      "github_blob_sha": "364c7c7de2a4ba89fe8213551b1fe6ee39b31cac",
+      "sha256": "c98ae5ce6b7125284d5fa507d56c1bee66c432d4b50a702a2fad0d8a27527674",
+      "bytes": 495
+    },
+    {
+      "path": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_kontext_bridge/nodes.py",
+      "github_blob_sha": "987e181bcb3ac59b24d2e77f68981fcd9fe30ca6",
+      "sha256": "d435485cfb8c7e658b7ba444abe176e59160873a7ea0e3e8d52de61f02dc2d85",
+      "bytes": 21217
+    },
+    {
+      "path": "h3_adapter_bundle/h3_kontext_bridge/requirements.txt",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "h3_kontext_bridge/requirements.txt",
+      "github_blob_sha": "62d46e2fe8f3da4a02c9725ca115cea16de2eecf",
+      "sha256": "625dbb293ff229c4506077c7834e9add5ce1db5874d75a23320c4a23a72ebd1d",
+      "bytes": 74
+    },
+    {
+      "path": "h3_adapter_bundle/licenses/httpx-0-LICENSE.md",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "licenses/httpx-0-LICENSE.md",
+      "github_blob_sha": "ab79d16a3f4c6c894c028d1f7431811e8711b42b",
+      "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+      "bytes": 1508
+    },
+    {
+      "path": "h3_adapter_bundle/licenses/pillow-0-LICENSE",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "licenses/pillow-0-LICENSE",
+      "github_blob_sha": "fd5fb1f72646e5892ab2e1f876aa632b3d798cc5",
+      "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857",
+      "bytes": 78016
+    },
+    {
+      "path": "h3_adapter_bundle/nodes.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "nodes.py",
+      "github_blob_sha": "75b4ff619a35a06aff9f24304a67a538e1a4cc45",
+      "sha256": "13bcb7d6daf10809a456aa099d25073498019b5234fe438ce06908d0a9af0619",
+      "bytes": 5217
+    },
+    {
+      "path": "h3_adapter_bundle/pyproject.toml",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "pyproject.toml",
+      "github_blob_sha": "8e55c30050d583d4cb6b2612d2086fae9f0b210c",
+      "sha256": "e6e83a28b82626b728b8499c0a92517f5c78b03d4da9a773d056be7f9e4eb901",
+      "bytes": 353
+    },
+    {
+      "path": "h3_adapter_bundle/requirements-dev.txt",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "requirements-dev.txt",
+      "github_blob_sha": "ef0e6e9c59d4374062a8a4551237d006bb8436df",
+      "sha256": "c00f36763c52faf77d8fcd0a15f2b8759cbd702ee8b0f5207015025f50416352",
+      "bytes": 72
+    },
+    {
+      "path": "h3_adapter_bundle/requirements.txt",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "requirements.txt",
+      "github_blob_sha": "0731ba2e714e51b46b92cfd7a26e97a94beead17",
+      "sha256": "fbd6c9acb99bbd358b13762c92708e70489551129862b6e07f49eb98d4d566be",
+      "bytes": 52
+    },
+    {
+      "path": "h3_adapter_bundle/scripts/build_release.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "scripts/build_release.py",
+      "github_blob_sha": "fb45825bcafc110bb6cf2a209073138f726303a4",
+      "sha256": "82acb0ae98845c26a340562b9d5fcc40b665c5d396b6b6849a160c5979d45724",
+      "bytes": 5575
+    },
+    {
+      "path": "h3_adapter_bundle/scripts/independent_http_smoke.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "scripts/independent_http_smoke.py",
+      "github_blob_sha": "03149b0097bd74c1edba20d871567c2134144840",
+      "sha256": "5fecf51cd1d12a409128ec336309a619dac07ea8c7e5e3d30cf53a30da507132",
+      "bytes": 15472
+    },
+    {
+      "path": "h3_adapter_bundle/scripts/mock_server.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "scripts/mock_server.py",
+      "github_blob_sha": "20d7d184b69b98f113dc3390888f8bdd36c4bf76",
+      "sha256": "e60ccde54286c2ac52305c9564b32f709210728d0ebc9853a488bc0a51937bc7",
+      "bytes": 1745
+    },
+    {
+      "path": "h3_adapter_bundle/scripts/verify_comfyui.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "scripts/verify_comfyui.py",
+      "github_blob_sha": "55dfccd71756cc05829824bd276f6eafc72fac96",
+      "sha256": "7de363dfcc8ed304032ec744cf91a1fe9a12c35fe48943c973892032b551c409",
+      "bytes": 4774
+    },
+    {
+      "path": "h3_adapter_bundle/tests/mock_api.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/mock_api.py",
+      "github_blob_sha": "c8a60277b923e6ad481e9a2bea658df3ec09127d",
+      "sha256": "84cafc2dd159e7a6b1f56633511b451d4b9919dd0537eeb06638fcac4fe7d362",
+      "bytes": 5248
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_config.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_config.py",
+      "github_blob_sha": "f3f353e8fad3d99c4a14ff9041ca8481d4b6d092",
+      "sha256": "ec51cd632a0493120d73d1d778ea8c00b51de3e167d41002edd5f07594fa250f",
+      "bytes": 2378
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_development_frontend.mjs",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_development_frontend.mjs",
+      "github_blob_sha": "c59aa9faa816be449a65d322f2bd298f5727f0d1",
+      "sha256": "20ef2dc3e8056074f7952a3cafaf7d3ccc8d13b55d3ab6b6aed9ea437d0ac10c",
+      "bytes": 3730
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_development_upload.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_development_upload.py",
+      "github_blob_sha": "35f70fa9622416f02fdcd89c43934de801ba27fe",
+      "sha256": "3426b5d443afc99d9327dc23dba4e481492e6b03d2aa4356c5d920fc5c51b361",
+      "bytes": 1558
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_engine.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_engine.py",
+      "github_blob_sha": "70308304803c43198f63316d97f153c5e1d09973",
+      "sha256": "a78dee35f2552a2982c6cb117390ba60b51194d9ed9126f8f4ffa02ffa83638d",
+      "bytes": 17757
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_final_frontend.mjs",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_final_frontend.mjs",
+      "github_blob_sha": "d327262b3f70c5afd34672d5ba93ce19fb5228bc",
+      "sha256": "c7598d3c2befd9267ea7feffba098835a07736e6bde2b4bb99b25b8eac13c1a9",
+      "bytes": 4016
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_final_identity.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_final_identity.py",
+      "github_blob_sha": "60e89c5e416887c7e1b460c06894478b1b928e38",
+      "sha256": "1c25c8515b93058fb03f0c6fb190f665f4771338a6445687f5e8f3b7573e2d6b",
+      "bytes": 8345
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_followup_contracts.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_followup_contracts.py",
+      "github_blob_sha": "c4233ac377d0422ba8c13c4e66ceea2f9eaf75ea",
+      "sha256": "f11909a3ebbb3283871adf3cf184a443c343be66b2116dce0a6a5d7ea6da515a",
+      "bytes": 11825
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_frontend.mjs",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_frontend.mjs",
+      "github_blob_sha": "2426314569b75adba015c6c2c18721dd1d8ad504",
+      "sha256": "18ad1a9a83ab93e3a3560ba143dbd26df8abbd1d5783987505c0f6ed48d9708d",
+      "bytes": 6772
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_frontend_review.mjs",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_frontend_review.mjs",
+      "github_blob_sha": "587418da9e464c748d6a7e31f4e918bc4d791d2d",
+      "sha256": "3df49c7a39ea2082a34c1d3ab08bae5e999cd30e14fbd82ef7eba7cc072b479e",
+      "bytes": 13584
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_h3k_delivery.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_h3k_delivery.py",
+      "github_blob_sha": "8e75216a53b292e175d3cb245241f824915d9da4",
+      "sha256": "46ac897be591575e4499b2331202df28b98e071564ecf6b6a4f870b40a954a02",
+      "bytes": 12331
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_independent_017.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_independent_017.py",
+      "github_blob_sha": "e01713e74176e252ad935251db293e08afdc320a",
+      "sha256": "e61e2d4fa0d462ed9241b1ae5f94b09a81b21a1710476e0667b7fa761c998aeb",
+      "bytes": 8600
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_integrated_bridge.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_integrated_bridge.py",
+      "github_blob_sha": "a95970f65e88464f3a3cab75550e8b805b818d61",
+      "sha256": "31ffd6fa6de23530b0343948a6220f218a90914701b17288b7d7bf5135d60edd",
+      "bytes": 8842
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_ledger.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_ledger.py",
+      "github_blob_sha": "2f9ded2e890f76b6c7997ad9dc9bd55196968949",
+      "sha256": "ad0c84ceef5a75bebfbc52b6454a19ea26733ee46b4ae521edcaf0b9cb958354",
+      "bytes": 707
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_masks.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_masks.py",
+      "github_blob_sha": "909a9be5cb0ef0142f10add53a8b8197875dee79",
+      "sha256": "8908c567ae430e99374bbde1e73038db779f80b856a9a02afa434fea17e11957",
+      "bytes": 3624
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_nodes.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_nodes.py",
+      "github_blob_sha": "adfe34b7bdfd245cf81fc7dbf7530d577719306a",
+      "sha256": "f777337190dd66b2dc188c85e62ff3d27ba1f6ee94d3ad64cbf6890de524cad3",
+      "bytes": 1166
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_protocol.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_protocol.py",
+      "github_blob_sha": "57a4a19b9a576382aaa3fd1b41ec8b48bf54b79e",
+      "sha256": "046c6d65cf716b09e7861a9144fc8c73e7ce629d6d17d71725e7d1ccab3f2d1a",
+      "bytes": 19580
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_review.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_review.py",
+      "github_blob_sha": "8f728feef58415fd9c69f96dfad426e7400c8e6b",
+      "sha256": "2fbca48de9676ad835ce42fa357bca1b0ad279acf438881eb53fa47d310292a9",
+      "bytes": 16869
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round2_concurrency.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round2_concurrency.py",
+      "github_blob_sha": "63d4b21cad92c981f4d150ffc3aabf7dd4e821af",
+      "sha256": "b141a389986f9f04d4a005e6ec6957c4f531084b6ea803e8ee53a1668dce8065",
+      "bytes": 3494
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round2_config.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round2_config.py",
+      "github_blob_sha": "4abb768a088dffeac0596aea0164e00c9da9ca19",
+      "sha256": "c57ceddf072d0967dd98b3c00f3305122cb08fa3cd8caceb6fb72a3f082b174a",
+      "bytes": 4026
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round2_images.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round2_images.py",
+      "github_blob_sha": "35c9653abbd5e148bb57ee94097a405586a28891",
+      "sha256": "17b399e4819d0a9270ad8f6a8e5d480152a5b3289d344d3bc97671c8281a4b21",
+      "bytes": 2524
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round2_release.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round2_release.py",
+      "github_blob_sha": "0f8ec6145062934092c6e0f311edf138767e94ca",
+      "sha256": "da7c1405161654aaa8522939ef269d974e275bb3891589decc431f20ee9f25c3",
+      "bytes": 2848
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round2_scheduler.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round2_scheduler.py",
+      "github_blob_sha": "c345614cd1258521a35bd7ceae346fb4b189cc4e",
+      "sha256": "393175bdd04faae7a807095962fa6d92f626cd2bc033f4be458bc476202c374b",
+      "bytes": 17208
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round3_frontend.mjs",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round3_frontend.mjs",
+      "github_blob_sha": "c90ed8d542a3baba782012ae8a316ef9dacc315d",
+      "sha256": "5236293df9a3d215752714ceacf2496fb1fdbcae490f0d28854b1d07185f5fa2",
+      "bytes": 3725
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round3_protocol.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round3_protocol.py",
+      "github_blob_sha": "dae9659aeeafa6647895682a21de1d70ba16ff11",
+      "sha256": "200a72b690626e520b9ae5b5e4122153d3966045112ae6d55c8e377ba7d1e8c8",
+      "bytes": 9613
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round3_routes.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round3_routes.py",
+      "github_blob_sha": "7077508d7180cd209b3b2ffc1d312be4c90f828a",
+      "sha256": "c21db1356b035e03e3bcd4e82760da68801c9e3b77a9ddb3ae01f3287a8e04ad",
+      "bytes": 2661
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round3_state.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round3_state.py",
+      "github_blob_sha": "bb5100365d68150c034b2bb894092f908959d37a",
+      "sha256": "cfd78939da8e1212cfa05db41348514df0c2145a3315a61f12ee24ad35c3af73",
+      "bytes": 6903
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round4_credentials.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round4_credentials.py",
+      "github_blob_sha": "baa67e971c76f9edb37b3ed7d6a7589c52ab4727",
+      "sha256": "81acea78fa20627429f0a35894ac5b61687d7c154b6e9c461921ffcf39bc69f6",
+      "bytes": 10785
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round4_frontend.mjs",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round4_frontend.mjs",
+      "github_blob_sha": "fe78aa3cb7d8a6ad3d1c97a983dacb4e326c2255",
+      "sha256": "cbe4fb747b8df6bd675e91152381e5db7ff6109939849ccef823d657e94c6848",
+      "bytes": 6173
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round4_health.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round4_health.py",
+      "github_blob_sha": "2dc4219b24ad2dc0dd0820d37e88aa5217f678b2",
+      "sha256": "2be2a0d85c1308c3390074d9d769159ced2e8a0435a5149c4ee679f0f02a3acb",
+      "bytes": 9160
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round4_parameters.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round4_parameters.py",
+      "github_blob_sha": "6a9d267edc025c6fcd49032b8b10da62d0dab3f9",
+      "sha256": "4d0f4068fb928147e499e64d41d359aa3ab089d19c4a92355711280a86a0d2e8",
+      "bytes": 2500
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round4_recovery.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round4_recovery.py",
+      "github_blob_sha": "cbb9ecdd22648387c3811d34ddf97862372c9f60",
+      "sha256": "5a50d0f0138e14777cfb91984bdc2ca8b797fd1d4abc752d3e761f1414bca8d6",
+      "bytes": 6794
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round4_release.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round4_release.py",
+      "github_blob_sha": "3bdd070fefa3118b3d4d3c800a634de691c2ecb8",
+      "sha256": "11a9028a795611c196d0b05af3652fe6acdc5ffffdf8dacc740c1e02a36c2194",
+      "bytes": 4313
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round5_contracts.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round5_contracts.py",
+      "github_blob_sha": "5e63f0ad0f77e74d6890858fa1a7dc8135cc86ab",
+      "sha256": "733e2ea1c8f3760b3dfac74765208f4804a2bceb018b8ddcfbdd751679c8f168",
+      "bytes": 8608
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_round5_release.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_round5_release.py",
+      "github_blob_sha": "a3253055eca8c13dc4cde261e45e10fad78b9a9e",
+      "sha256": "e2f61b19460bb6b28067614c2f7a9b08ce1f0bdebaca0a4df2d41e427dd58cfc",
+      "bytes": 4055
+    },
+    {
+      "path": "h3_adapter_bundle/tests/test_routes.py",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "tests/test_routes.py",
+      "github_blob_sha": "3c2bfa05959a34579448cdbe83d6f93c726e3658",
+      "sha256": "70de4460860228aa06d9b7b34b62811324b23288005478592cb4b4680c0c9884",
+      "bytes": 1453
+    },
+    {
+      "path": "h3_adapter_bundle/web/h3_adapter.js",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "web/h3_adapter.js",
+      "github_blob_sha": "5ac3933f541d75287418fe1ed86e8bd7a90b7ec4",
+      "sha256": "5b29934ee18c49cefd71ee6fbfb42e9acee32a61384d7e9a862c8dbe97b80804",
+      "bytes": 21026
+    },
+    {
+      "path": "h3_adapter_bundle/workflows/H3_A2_API_ZImage_BackgroundCache_INTEGRATED.json",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": "workflows/H3_A2_API_ZImage_BackgroundCache_INTEGRATED.json",
+      "github_blob_sha": "c536b0437e2e654f8d1b9d0bc65bfaa08160b84f",
+      "sha256": "405ffe1afad9951e80f349ec93277c363bd185bbfa91e1ffc8c0bbe20246f913",
+      "bytes": 232037
+    },
+    {
+      "path": "h3_core/.gitignore",
+      "repository": "GPR-DG/ComfyUI-H3HardCutRunner",
+      "commit": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+      "source_path": ".gitignore",
+      "github_blob_sha": "6817c71b34f069d09dd37a8ee41bcd20bc397f48",
+      "sha256": "0f91ff2d7d11a9248cb14e010f3623ee18eacca2fe48248c053061d2bc20b5e9",
+      "bytes": 65
+    },
+    {
+      "path": "h3_adapter_bundle/.gitattributes",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": ".gitattributes",
+      "github_blob_sha": "2478623fd869dcdba18d040b8a92ac9733139b77",
+      "sha256": "86fd5a365a20062d5389bce7d41e964959a6e19b537eadd24c1a3c48f2935192",
+      "bytes": 752
+    },
+    {
+      "path": "h3_adapter_bundle/.gitignore",
+      "repository": "GPR-DG/ComfyUI-H3-Adapter",
+      "commit": "687c052fb2d5cb618a763c5ab8cc672df1295d1b",
+      "source_path": ".gitignore",
+      "github_blob_sha": "2f19a6f7448830f6df87ff64fca527f82cae1928",
+      "sha256": "368a3abde8554e325ef7b52bcd6b8c3048fceb4337ad57f170cadf99b42f0ba4",
+      "bytes": 457
+    }
+  ]
+}

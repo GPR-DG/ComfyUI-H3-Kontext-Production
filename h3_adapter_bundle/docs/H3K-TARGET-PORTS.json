@@ -1,0 +1,515 @@
+{
+  "target_filename": "H3_A2_Kontext6_ZImage_BackgroundCache_TEST.json",
+  "target_sha256": "55dd887459a485366d75ff725b70da03bbab285bfd954e51ff984c05b93435f3",
+  "nodes": [
+    {
+      "id": 7045,
+      "type": "H3KBackgroundResolve",
+      "inputs": [
+        {
+          "name": "task",
+          "type": "BACKGROUND_TASK",
+          "link": 189
+        },
+        {
+          "name": "candidate",
+          "type": "BACKGROUND_CANDIDATE",
+          "link": 190
+        },
+        {
+          "name": "revision",
+          "type": "STRING",
+          "link": 252,
+          "widget": {
+            "name": "revision"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "view",
+          "type": "BACKGROUND_VIEW",
+          "links": [
+            192,
+            194,
+            242,
+            244,
+            246,
+            279,
+            282
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "decision",
+          "type": "BACKGROUND_DECISION",
+          "links": [],
+          "slot_index": 1
+        },
+        {
+          "name": "clean_background",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 2
+        },
+        {
+          "name": "view_id",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 3
+        },
+        {
+          "name": "state",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 4
+        },
+        {
+          "name": "ready",
+          "type": "BOOLEAN",
+          "links": [],
+          "slot_index": 5
+        }
+      ],
+      "widgets_values": []
+    },
+    {
+      "id": 7046,
+      "type": "H3KBackgroundWashClaim",
+      "inputs": [
+        {
+          "name": "task",
+          "type": "BACKGROUND_TASK",
+          "link": 191
+        },
+        {
+          "name": "view",
+          "type": "BACKGROUND_VIEW",
+          "link": 192
+        }
+      ],
+      "outputs": [
+        {
+          "name": "wash_token",
+          "type": "STRING",
+          "links": [
+            195,
+            247,
+            277,
+            280,
+            283
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "claimed",
+          "type": "BOOLEAN",
+          "links": [],
+          "slot_index": 1
+        },
+        {
+          "name": "view_id",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 2
+        }
+      ],
+      "widgets_values": []
+    },
+    {
+      "id": 7047,
+      "type": "H3KBackgroundFinish",
+      "inputs": [
+        {
+          "name": "task",
+          "type": "BACKGROUND_TASK",
+          "link": 193
+        },
+        {
+          "name": "view",
+          "type": "BACKGROUND_VIEW",
+          "link": 194
+        },
+        {
+          "name": "clean_background",
+          "type": "IMAGE",
+          "link": 260
+        },
+        {
+          "name": "wash_token",
+          "type": "STRING",
+          "link": 195
+        },
+        {
+          "name": "removal_background",
+          "type": "IMAGE",
+          "link": 255
+        }
+      ],
+      "outputs": [
+        {
+          "name": "view",
+          "type": "BACKGROUND_VIEW",
+          "links": [],
+          "slot_index": 0
+        },
+        {
+          "name": "clean_background",
+          "type": "IMAGE",
+          "links": [
+            209,
+            224,
+            225,
+            238
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "report",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 2
+        },
+        {
+          "name": "ready",
+          "type": "BOOLEAN",
+          "links": [
+            206
+          ],
+          "slot_index": 3
+        },
+        {
+          "name": "A_original",
+          "type": "IMAGE",
+          "links": [
+            261
+          ],
+          "slot_index": 4
+        },
+        {
+          "name": "scene_prompt",
+          "type": "STRING",
+          "links": [
+            232
+          ],
+          "slot_index": 5
+        },
+        {
+          "name": "B_kontext",
+          "type": "IMAGE",
+          "links": [
+            223
+          ],
+          "slot_index": 6
+        }
+      ],
+      "widgets_values": []
+    },
+    {
+      "id": 7320,
+      "type": "H3KBackgroundSource",
+      "inputs": [
+        {
+          "name": "task",
+          "type": "BACKGROUND_TASK",
+          "link": 241
+        },
+        {
+          "name": "view",
+          "type": "BACKGROUND_VIEW",
+          "link": 242
+        },
+        {
+          "name": "wash_token",
+          "type": "STRING",
+          "link": 247
+        }
+      ],
+      "outputs": [
+        {
+          "name": "letterboxed_candidate",
+          "type": "IMAGE",
+          "links": [
+            248
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "canvas",
+          "type": "H3K_CANVAS",
+          "links": [
+            284,
+            285
+          ],
+          "slot_index": 1
+        }
+      ],
+      "widgets_values": []
+    },
+    {
+      "id": 7321,
+      "type": "H3KStageGuard",
+      "inputs": [
+        {
+          "name": "task",
+          "type": "BACKGROUND_TASK",
+          "link": 243
+        },
+        {
+          "name": "view",
+          "type": "BACKGROUND_VIEW",
+          "link": 244
+        },
+        {
+          "name": "wash_token",
+          "type": "STRING",
+          "link": 277
+        },
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 249
+        },
+        {
+          "name": "canvas",
+          "type": "H3K_CANVAS",
+          "link": 284
+        },
+        {
+          "name": "stage",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "stage"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model_canvas",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 0
+        },
+        {
+          "name": "original_size_result",
+          "type": "IMAGE",
+          "links": [
+            286
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "report",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 2
+        }
+      ],
+      "widgets_values": [
+        "kontext"
+      ]
+    },
+    {
+      "id": 7322,
+      "type": "H3KRecipe",
+      "inputs": [
+        {
+          "name": "denoise",
+          "type": "FLOAT",
+          "link": 251
+        },
+        {
+          "name": "removal_prompt",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "removal_prompt"
+          }
+        },
+        {
+          "name": "kontext_node_id",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "kontext_node_id"
+          }
+        },
+        {
+          "name": "z_node_id",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "z_node_id"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "revision",
+          "type": "STRING",
+          "links": [
+            252
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "removal_prompt",
+          "type": "STRING",
+          "links": [
+            253
+          ],
+          "slot_index": 1
+        }
+      ],
+      "widgets_values": [
+        "Remove every person and all belongings carried or worn by them. Reconstruct a plausible empty background only in the occluded areas. Preserve the original camera position, framing, perspective, window and door frames, furniture, walls, floor, lighting and all unoccluded areas. Do not add people, body parts, human reflections, text or new objects. Keep the complete scene edges and original spatial layout.",
+        "7523",
+        "7411"
+      ]
+    },
+    {
+      "id": 7323,
+      "type": "H3KPromptCapture",
+      "inputs": [
+        {
+          "name": "task",
+          "type": "BACKGROUND_TASK",
+          "link": 245
+        },
+        {
+          "name": "view",
+          "type": "BACKGROUND_VIEW",
+          "link": 246
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 240
+        }
+      ],
+      "outputs": [
+        {
+          "name": "scene_prompt",
+          "type": "STRING",
+          "links": [
+            231
+          ],
+          "slot_index": 0
+        }
+      ],
+      "widgets_values": []
+    },
+    {
+      "id": 7331,
+      "type": "H3KStageGuard",
+      "inputs": [
+        {
+          "name": "task",
+          "type": "BACKGROUND_TASK",
+          "link": 278
+        },
+        {
+          "name": "view",
+          "type": "BACKGROUND_VIEW",
+          "link": 279
+        },
+        {
+          "name": "wash_token",
+          "type": "STRING",
+          "link": 280
+        },
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 257
+        },
+        {
+          "name": "canvas",
+          "type": "H3K_CANVAS",
+          "link": 285
+        },
+        {
+          "name": "stage",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "stage"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model_canvas",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 0
+        },
+        {
+          "name": "original_size_result",
+          "type": "IMAGE",
+          "links": [
+            260
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "report",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 2
+        }
+      ],
+      "widgets_values": [
+        "z_image"
+      ]
+    },
+    {
+      "id": 7524,
+      "type": "H3KStagePreview",
+      "inputs": [
+        {
+          "name": "task",
+          "type": "BACKGROUND_TASK",
+          "link": 281
+        },
+        {
+          "name": "view",
+          "type": "BACKGROUND_VIEW",
+          "link": 282
+        },
+        {
+          "name": "wash_token",
+          "type": "STRING",
+          "link": 283
+        },
+        {
+          "name": "removal_background",
+          "type": "IMAGE",
+          "link": 286
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model_canvas",
+          "type": "IMAGE",
+          "links": [
+            226
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "kontext_result",
+          "type": "IMAGE",
+          "links": [
+            237,
+            255,
+            262
+          ],
+          "slot_index": 1
+        }
+      ],
+      "widgets_values": []
+    }
+  ]
+}

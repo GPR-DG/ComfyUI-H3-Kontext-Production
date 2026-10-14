@@ -1,0 +1,66 @@
+{
+  "expectedNodes": 132,
+  "loadedNodes": 132,
+  "registryAvailable": true,
+  "missingRegistry": [],
+  "dialogs": [
+    "模板所有模板Popular产品与广告角色与时尚品牌与设计基础图像图像工具视频视频工具音频3D模型矢量LLM节点基础合作伙伴节点扩展ComfyUI-DepthCrafter-NodesComfyUI-KJNodesComfyUI-YCNodes-MiniMax-H3ComfyUI_Qwen3-VL-InstructPopular全部节点图应用模型筛选使用例运行于热门筛选器模型筛选使用例运行于热门节点图MiniMax H3：图生视频图生视频Int8+1节点图Qwen Image 2.1：图像编辑图片编辑Int8节点图LTX-2.3: 图生视频图生视频视频节点图Z-Image-Turbo: 文生图图像文生图节点图MiniMax H3：参考生视频参考生视频Int8+1节点图Krea-2: 文生图文生图节点图Wan万相 2.2 14B 图生视频图生视频视频节点图Qwen Image 2.1：文生图文生图Int8节点图LTX-2.5：图生视频图生视频Int8+1节点图Qwen Image Edit 2509ControlNet图片编辑节点图合作伙伴 APINano Banana 2：图像编辑API图片编辑节点图MiniMax H3：文生视频文生视频Int8+1节点图合作伙伴 APINano Banana ProAPI图像+1节点图FastVideo FastH3：图生视频图生视频Int8节点图"
+  ],
+  "nodesWithValidationWarnings": [
+    {
+      "id": "581",
+      "type": "UNETLoader"
+    },
+    {
+      "id": "582",
+      "type": "CLIPLoader"
+    },
+    {
+      "id": "583",
+      "type": "VAELoader"
+    },
+    {
+      "id": "584",
+      "type": "VAELoader"
+    },
+    {
+      "id": "216",
+      "type": "LoraLoaderModelOnly"
+    },
+    {
+      "id": "6538",
+      "type": "ModelPreviewOverrideKJ"
+    },
+    {
+      "id": "6413",
+      "type": "SelfLiftH3Sampler"
+    },
+    {
+      "id": "7401",
+      "type": "CLIPLoader"
+    },
+    {
+      "id": "7406",
+      "type": "VAELoader"
+    },
+    {
+      "id": "7402",
+      "type": "UNETLoader"
+    },
+    {
+      "id": "7513",
+      "type": "VAELoader"
+    },
+    {
+      "id": "7511",
+      "type": "UNETLoader"
+    },
+    {
+      "id": "7512",
+      "type": "DualCLIPLoader"
+    }
+  ],
+  "passed": true,
+  "neuralInferenceTested": false,
+  "note": "Validation warnings are retained; missing node registry is empty. Model weights are not installed in this CPU test host."
+}

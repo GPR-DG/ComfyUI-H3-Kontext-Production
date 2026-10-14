@@ -1,0 +1,60 @@
+{
+  "version": "0.1.0",
+  "source_commits": {
+    "h3c": "e1516896fb2b90e66b9d3ae811a5004cb5ff5626",
+    "h3k": "687c052fb2d5cb618a763c5ab8cc672df1295d1b"
+  },
+  "comfyui_commit": "0df64eb242b7c5759c3e86afd5d1846d923b1033",
+  "comfyui_version": "0.39.0",
+  "tests": {
+    "core_h3c": {
+      "tests": 104,
+      "status": "PASS"
+    },
+    "adapter_api_a2_h3k": {
+      "tests": 207,
+      "status": "PASS",
+      "skipped": 0
+    },
+    "production_package": {
+      "tests": 5,
+      "status": "PASS"
+    },
+    "formal_comfyui_loader": {
+      "tests": 1,
+      "status": "PASS"
+    },
+    "javascript": {
+      "files": 6,
+      "status": "PASS"
+    },
+    "real_http_h3c_scheduler": "PASS",
+    "real_http_h3k_scheduler_with_aliases": "PASS",
+    "api_route_and_web_extension": "PASS",
+    "original_json_backend_registry": {
+      "node_instances": 132,
+      "missing_types": [],
+      "status": "PASS"
+    },
+    "original_json_actual_frontend": {
+      "node_instances": 132,
+      "missing_types": [],
+      "status": "PASS"
+    },
+    "no_import_errors_in_final_host_log": true,
+    "source_byte_identity": {
+      "files": 119,
+      "status": "PASS"
+    },
+    "protected_original_files": {
+      "files": 9890,
+      "changed": 0,
+      "status": "PASS"
+    }
+  },
+  "neural_inference_tested": false,
+  "visual_quality_verified": false,
+  "runninghub_cloud_tested": false,
+  "third_party_dependency_note": "Real external dependencies were installed only in an isolated test host. They are not bundled in this H3C/H3K plugin. Existing workflow/model dependencies remain required.",
+  "publication_gate": "PASS for requested local loading, original JSON Missing Node check, target-node scheduling and API/A2/Core regression; no claim of cloud/GPU/model inference acceptance."
+}

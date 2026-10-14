@@ -1,0 +1,10 @@
+test_aliases_do_not_replace_original_classes_or_contracts (test_package.ProductionPackageTests.test_aliases_do_not_replace_original_classes_or_contracts) ... ok
+test_all_required_keys_are_real_and_callable (test_package.ProductionPackageTests.test_all_required_keys_are_real_and_callable) ... ok
+test_all_upstream_files_are_byte_exact (test_package.ProductionPackageTests.test_all_upstream_files_are_byte_exact) ... ok
+test_existing_api_a2_core_and_canonical_kontext_remain_available (test_package.ProductionPackageTests.test_existing_api_a2_core_and_canonical_kontext_remain_available) ... ok
+test_kontext_and_adapter_pins_match_actual_core_and_api (test_package.ProductionPackageTests.test_kontext_and_adapter_pins_match_actual_core_and_api) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.953s
+
+OK

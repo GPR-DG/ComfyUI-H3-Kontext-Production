@@ -1,0 +1,174 @@
+{
+  "prompt": [
+    0,
+    "d3e12f9a-ff1d-436c-a093-b6eb55ba3dcb",
+    {
+      "1": {
+        "class_type": "ProductionFixtureImage",
+        "inputs": {
+          "seed": 17
+        }
+      },
+      "2": {
+        "class_type": "H3CBackgroundTaskStart",
+        "inputs": {
+          "task_id": "production-c",
+          "db_path": ":memory:"
+        }
+      },
+      "3": {
+        "class_type": "H3CBestBackgroundFrame",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "shot_rgb_raw": [
+            "1",
+            0
+          ],
+          "shot_number": 1,
+          "background_only": false,
+          "analysis_edge": 32,
+          "candidate_limit": 2,
+          "person_masks": [
+            "1",
+            1
+          ]
+        }
+      },
+      "4": {
+        "class_type": "H3CBackgroundResolve",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "candidate": [
+            "3",
+            0
+          ],
+          "revision": "production-test"
+        }
+      },
+      "5": {
+        "class_type": "H3CBackgroundWashClaim",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "4",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "H3CBackgroundFinish",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "4",
+            0
+          ],
+          "clean_background": [
+            "1",
+            0
+          ],
+          "wash_token": [
+            "5",
+            0
+          ]
+        }
+      },
+      "7": {
+        "class_type": "ProductionFixtureSink",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "view": [
+            "6",
+            0
+          ],
+          "pixels": [
+            "6",
+            1
+          ],
+          "report": [
+            "6",
+            2
+          ]
+        }
+      },
+      "8": {
+        "class_type": "H3CBackgroundTaskCleanup",
+        "inputs": {
+          "task": [
+            "2",
+            0
+          ],
+          "completion": [
+            "7",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "create_time": 1791959858649
+    },
+    [
+      "7",
+      "8"
+    ]
+  ],
+  "outputs": {
+    "7": {
+      "text": [
+        "{\"state\": \"READY\", \"shape\": [1, 32, 48, 3], \"task_id\": \"production-c-3796a87dcdae4fbfbd15d4b464ced0a4\", \"view_id\": \"e791859e00a0479eaf2bc9fcdd3567e8\"}"
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "d3e12f9a-ff1d-436c-a093-b6eb55ba3dcb",
+          "timestamp": 1791959858651
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "d3e12f9a-ff1d-436c-a093-b6eb55ba3dcb",
+          "timestamp": 1791959858652
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "d3e12f9a-ff1d-436c-a093-b6eb55ba3dcb",
+          "timestamp": 1791959859137
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "7": {
+      "node_id": "7",
+      "display_node": "7",
+      "parent_node": null,
+      "real_node_id": "7"
+    }
+  }
+}

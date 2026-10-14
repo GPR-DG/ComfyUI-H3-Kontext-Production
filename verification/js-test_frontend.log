@@ -1,0 +1,10 @@
+Frontend contract: hooks, nonserialized controls, secret modal, model mapping, report, management-token retry passed.
+✔ C:\Users\14301\Documents\Codex\2026-10-14\files-pasted-by-the-user-h3\outputs\ComfyUI-H3-Kontext-Production\h3_adapter_bundle\tests\test_frontend.mjs (80.6956ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 89.4156

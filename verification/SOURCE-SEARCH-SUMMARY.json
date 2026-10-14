@@ -1,0 +1,85 @@
+[
+  {
+    "root": "C:\\Users\\14301",
+    "text_files": 138359,
+    "archives": 342,
+    "errors": [
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Application Data'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\History'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Microsoft\\\\Windows\\\\INetCache\\\\Content.IE5'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Microsoft\\\\Windows\\\\Temporary Internet Files'",
+      "C:\\Users\\14301\\AppData\\Local\\Temp\\hbcodex-qc-opencv_zoo-47534e27c9851bb1128ccc0102f1145e27f23f98.zip: File is not a zip file",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\h3-relay-browser-7hcyvu8i'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\h3-relay-browser-80y_hvxh'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\h3-relay-browser-dmnf0nk2'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\h3-relay-browser-kg34nfei'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\h3-relay-browser-n877_mr1'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\h3-relay-browser-p6pwvk_9'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\h3-relay-browser-pca896k2'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\h3-relay-browser-qf__veak'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\h3-relay-browser-ssz8kzt4'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmp5fx7xvi_'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmp5s1_p6y2'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmp66d0t8o4'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmp6c0p6tl6'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmpal0s6ser'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmphehivjkf'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmpj6opq6ov'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmpklyuv5xk'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmpn1y11irg'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmpnwcsq1v2'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmpofw4ucqw'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmppoep9z0t'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmpssq0nhsz'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmptdjtclp8'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmpuxcj3lmi'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temp\\\\tmpxi62w7dp'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Local\\\\Temporary Internet Files'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\程序'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\Application Data'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\Cookies'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\Documents\\\\Codex\\\\2026-10-11\\\\comfyui-h3-adapter-0-1-5\\\\outputs\\\\github-development-upload-20261012\\\\temp\\\\h3-relay-browser-fdxdmqi4'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\Documents\\\\My Music'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\Documents\\\\My Pictures'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\Documents\\\\My Videos'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\Local Settings'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\My Documents'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\NetHood'",
+      "[WinError 2] 系统找不到指定的文件。: 'C:\\\\Users\\\\14301\\\\PCManger\\\\dfs'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\PrintHood'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\Recent'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\SendTo'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\Templates'",
+      "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\14301\\\\「开始」菜单'"
+    ]
+  },
+  {
+    "root": "D:\\HBcodex",
+    "text_files": 150324,
+    "archives": 12,
+    "errors": [
+      "[WinError 3] 系统找不到指定的路径。: 'D:\\\\HBcodex\\\\.scratch\\\\dev-runtime\\\\builds\\\\electron-build\\\\qc-costs-main-1791944044013\\\\renderer'",
+      "[WinError 3] 系统找不到指定的路径。: 'D:\\\\HBcodex\\\\.scratch\\\\dev-runtime\\\\builds\\\\electron-build\\\\qc-scan-main-1791927189364\\\\renderer'"
+    ]
+  },
+  {
+    "root": "D:\\",
+    "text_files": 194121,
+    "archives": 27,
+    "errors": [
+      "[WinError 5] 拒绝访问。: 'D:\\\\$RECYCLE.BIN\\\\S-1-5-18'",
+      "[WinError 5] 拒绝访问。: 'D:\\\\Config.Msi'",
+      "[WinError 3] 系统找不到指定的路径。: 'D:\\\\HBcodex\\\\.scratch\\\\dev-runtime\\\\builds\\\\electron-build\\\\qc-costs-main-1791944044013\\\\renderer'",
+      "[WinError 3] 系统找不到指定的路径。: 'D:\\\\HBcodex\\\\.scratch\\\\dev-runtime\\\\builds\\\\electron-build\\\\qc-scan-main-1791927189364\\\\renderer'",
+      "[WinError 5] 拒绝访问。: 'D:\\\\JZcodex\\\\.cache\\\\pytest-cache-low-20260909-1628'",
+      "[WinError 5] 拒绝访问。: 'D:\\\\JZcodex\\\\.cache\\\\pytest-temp-low-20260909-1628'",
+      "[WinError 5] 拒绝访问。: 'D:\\\\System Volume Information'"
+    ]
+  },
+  {
+    "root": "C:\\Users\\14301\\Desktop\\H3项目\\20261013_A2_Kontext6步去人物_背景修复测试",
+    "text_files": 49,
+    "archives": 0,
+    "errors": []
+  }
+]

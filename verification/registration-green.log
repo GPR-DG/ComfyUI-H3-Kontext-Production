@@ -1,0 +1,7 @@
+WARNING:root:****** User settings have been changed to be stored on the server instead of browser storage. ******
+WARNING:root:****** For multi-user setups add the --multi-user CLI argument to enable multiple user profiles. ******
+.
+----------------------------------------------------------------------
+Ran 1 test in 12.048s
+
+OK

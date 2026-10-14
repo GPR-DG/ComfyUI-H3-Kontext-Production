@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "registration": "H3CBackgroundTaskStart",
+      "source_file": "h3_core/h3_background_nodes.py",
+      "class_name": "H3CBackgroundTaskStart",
+      "class_line": 133,
+      "registration_file": "h3_core/h3_background_nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3CBestBackgroundFrame",
+      "source_file": "h3_core/h3_background_nodes.py",
+      "class_name": "H3CBestBackgroundFrame",
+      "class_line": 160,
+      "registration_file": "h3_core/h3_background_nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3CBackgroundResolve",
+      "source_file": "h3_core/h3_background_nodes.py",
+      "class_name": "H3CBackgroundResolve",
+      "class_line": 194,
+      "registration_file": "h3_core/h3_background_nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3CBackgroundWashClaim",
+      "source_file": "h3_core/h3_background_nodes.py",
+      "class_name": "H3CBackgroundWashClaim",
+      "class_line": 220,
+      "registration_file": "h3_core/h3_background_nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3CBackgroundFinish",
+      "source_file": "h3_core/h3_background_nodes.py",
+      "class_name": "H3CBackgroundAttachClean",
+      "class_line": 239,
+      "registration_file": "__init__.py",
+      "compatibility_alias": true,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3CBackgroundTaskCleanup",
+      "source_file": "h3_core/h3_background_nodes.py",
+      "class_name": "H3CBackgroundTaskCleanup",
+      "class_line": 273,
+      "registration_file": "h3_core/h3_background_nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3KBackgroundResolve",
+      "source_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "class_name": "H3KBackgroundResolve",
+      "class_line": 202,
+      "registration_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3KBackgroundWashClaim",
+      "source_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "class_name": "H3KBackgroundWashClaim",
+      "class_line": 240,
+      "registration_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3KBackgroundFinish",
+      "source_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "class_name": "H3KBackgroundFinish",
+      "class_line": 340,
+      "registration_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3KBackgroundSource",
+      "source_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "class_name": "H3KBackgroundSource",
+      "class_line": 263,
+      "registration_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3StageGuard",
+      "source_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "class_name": "H3KStageGuard",
+      "class_line": 282,
+      "registration_file": "__init__.py",
+      "compatibility_alias": true,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3KRecipe",
+      "source_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "class_name": "H3KRecipe",
+      "class_line": 142,
+      "registration_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3KPromptCapture",
+      "source_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "class_name": "H3KPromptCapture",
+      "class_line": 315,
+      "registration_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "compatibility_alias": false,
+      "status": "PASS"
+    },
+    {
+      "registration": "H3StagePreview",
+      "source_file": "h3_adapter_bundle/h3_kontext_bridge/nodes.py",
+      "class_name": "H3KStagePreview",
+      "class_line": 390,
+      "registration_file": "__init__.py",
+      "compatibility_alias": true,
+      "status": "PASS"
+    }
+  ]
+}
